@@ -1,0 +1,16 @@
+<?php
+
+use albertborsos\couchbase\Connection;
+
+return [
+    'components' => [
+        'couchbase' => [
+            // local config
+            'dsn' => 'cb',
+            'username' => 'frontend',
+            'password' => 'frontend',
+            'defaultBucketName' => 'frontend',
+            'defaultBucketPassword' => 'frontend',
+        ],
+    ],
+];
