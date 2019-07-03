@@ -1,0 +1,39 @@
+{
+    "name": "albertborsos/yii2-couchbase",
+    "description": "Couchbase component for Yii 2.0 Framework",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Albert Borsos",
+            "email": "hello@borsosalbert.hu"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "yiisoft/yii2": "~2.0.0",
+        "albertborsos/yii2-ddd": "dev-repository"
+    },
+    "require-dev": {
+        "codeception/base": "~3.0",
+        "codeception/verify": "~1.0",
+        "codeception/specify": "~1.0",
+        "codeception/mockery-module": "^0.3.0",
+        "php-coveralls/php-coveralls": "^2.1",
+        "mito/yii2-coding-standards": "~2.0.0@beta"
+    },
+    "autoload": {
+        "psr-4": {
+            "albertborsos\\couchbase\\": "src",
+            "albertborsos\\couchbase\\tests\\": "tests",
+            "albertborsos\\couchbase\\tests\\support\\base\\": "tests/_support/base"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}

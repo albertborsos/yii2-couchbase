@@ -1,0 +1,4 @@
+/vendor
+/tests/config/*.local.php
+/tests/runtime
+!/tests/runtime/.gitkeep
