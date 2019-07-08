@@ -7,11 +7,11 @@ $config = [
         'couchbase' => [
             // travis config
             'class' => Connection::class,
-            'dsn' => '127.0.0.1?detailed_errcodes=true',
-            'username' => 'Administrator',
+            'dsn' => '0.0.0.0?detailed_errcodes=true',
+            'username' => 'admin',
             'password' => 'password',
-            'defaultBucketName' => 'default',
-            'defaultBucketPassword' => '',
+            'defaultBucketName' => 'travel-sample',
+            'defaultBucketPassword' => 'password',
         ],
     ],
 ];
